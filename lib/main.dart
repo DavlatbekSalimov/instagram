@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/pages/register/login_page/login_page.dart';
 import 'package:instagram/theme/lightt_theme.dart';
 import 'package:instagram/theme/darkk_theme.dart';
-import 'package:instagram/widgets/MyButtomNaw.dart';
 
 void main() {
   runApp(
@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
       darkTheme: darkTheme,
-      // home: HomePage(),
-      home: const MyBottomNaw(),
+      home: const LoginPage(),
+      //home: const MyBottomNaw(),
     );
   }
 }
